@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+#container {
+	padding-top:30px;
+	width:1000px;
+	margin:0 auto;
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:space-around;
+	}
+	
+.left {
+	width:500px;
+	}
+	
+#img1{
+	padding-top:100px;
+	width:100%;
+	margin-left: 72px;
+    margin-top: 20px;
+}
+
+.right{
+	width:calc(100%-550px);
+	
+}
+
+.top{
+	margin-left: 609px;
+    margin-top: -655px;
+}
+
+h1{
+	
+}
+
+.top>p:ntn-child(2){
+	color:#aaa;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #dadada;
+}
+
+dl{
+	padding-top: 124px;
+}
+
+dt{
+	width:30%;
+	padding:5px 0;
+}
+
+dd{
+	width:70%;
+	padding-top:0px;
+}
+
+.price{
+	font-weight:700;
+}
+
+.number{
+		display:flex;
+	flex-flow:row nowrap;
+	justify-content:space-around;
+	align-items:center;
+	padding:10px 0;
+	margin:10px 0;
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #ddd;
+}
+
+.order_name{
+	
+}
+
+.order_number{
+	
+}
+
+input[name=num]{
+	background:#fff;
+	width:50px;
+	padding:5px;
+	border:1px solid #ddd;
+	margin:0 auto;
+	
+}
+
+.number_price{
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:space-around;
+	padding:5px 0;
+}
+
+p{
+	
+}
+
+p:nth-child(1){
+	
+}
+
+#total{
+	color:#cc0202;
+	font-size:1.2rem;
+}
+
+.bottom{
+	text-align:right;
+	padding:20px 0; 
+}
+
+.bottom1{
+	text-align:right;
+	padding:20px 0; 
+}
+
+button{
+	padding:15px 0;
+}
+
+#order_btn{
+	width:150px;
+	background:#cc0202;
+	color:#fff;
+}
+
+#uploadBtn{
+	width:120px;
+	background:#a9a9a9;
+	color:#fff;
+}
+
+#like_btn{
+	width:100px;
+	background:#ddd;
+}
+
+#up{
+	padding:2px;
+}
+
+#down{
+	padding:2px;
+}
+
+#result{
+	padding-left:90px;
+}
+
+#re{
+	margin: 10px;
+}
+
+.SIZE{
+	margin: 10px;
+}
+
+.COLOR{
+	margin: 10px;
+}
+
+
+.review{
+		display:flex;
+	flex-flow:row nowrap;
+	justify-content:space-around;
+	align-items:center;
+	padding:10px 0;
+	margin:10px 0;
+	border-top:1px solid ;
+}
+
+#img1-1{
+	padding-top:100px;
+	width:1200px;
+	height:900px;
+    padding-left: 350px;
+}
+
+png{
+	padding-top:100px;
+	width:70px;
+	height:50px;
+}
+
+#review1{
+	padding-top:20px;
+	    padding-bottom: 10px;
+}
+
+#review_btn{
+	width:120px;
+	color:black;
+	background-color:white;
+	border-radius:4px;
+}
+
+#review_btn:hover{
+	background: #5f5f5f;
+	color: white;	
+}
+
+#pname1{
+	width: 268px;
+}
+
+#uniprice1{
+	width: 268px;
+}
+
+
+
+
+

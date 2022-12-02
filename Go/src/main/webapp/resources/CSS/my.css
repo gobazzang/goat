@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+.box::after{
+	content: '';
+	clear: both;
+	display: block;
+	}
+	
+.box{
+	padding: 10px;
+	margin-top: 117px;
+    margin-left: 525px;
+    position:fixed;
+    }
+
+.left{float: left;
+	width: calc((100% - 10px) / 2);
+	}
+	
+.right{
+	float: right;
+	width: calc(50% - 5px);
+	}
+
+.left-top{
+	height: 200px;
+    margin-bottom: 10px;
+    }
+    
+.left-bottom{
+	height: 200px;	
+	}
+
+.right-top{
+	height: 200px;
+	margin-bottom: 10px;
+	}
+	
+.right-bottom{
+	height: 200px;
+	}
+	
+#orderlist{
+    height: 200px;
+    background-color:white;
+    width: 260px;
+}
+
+#cart{
+	height: 200px;
+    background-color:white;
+    width: 260px;
+}
+
+#mypage{
+	height: 200px;
+    background-color:white;
+    width: 260px;
+}
+
+#mylist{
+	height: 200px;
+    background-color:white;
+    width: 260px;
+}
+
+#withdrawal{
+	float: right;
+	margin:10px;
+}
+
+	
+	
+	
+	
+	

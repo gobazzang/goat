@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+#content{
+	margin-top: 150px;
+}
+
+td {
+	height: 30px;
+	
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 10px;
+	text-align: center;
+}
+
+#tr2{
+	font-weight: bold;
+	font-size: 18px;
+	border-top: 3px solid #8C5f5f5;
+	border-bottom: 2px solid #8C8C8C;
+	border:none;
+}
+
+#ta1{
+	border-collapse: collapse;
+	border-top: 3px solid #5f5f5f;
+}
+
+.check{
+	width: 51px;
+	text-align: center;
+}
+
+.filename{
+    width: 522px;
+    height: 110px;
+}
+
+.pname{
+	width: 1014px;
+	text-align: center;
+}
+
+.uniprice{
+	width: 99px;
+    text-align: center;
+}
+
+.quantitiy{
+	width: 90px;
+    text-align: center;
+}
+
+.plus{
+	width: 130px;
+	text-align: center;
+}
+
+.order{
+	width: 130px;
+	text-align: center;
+}
+
+.backbtn1{
+	 margin-top: 5px;
+}
+
+.quantitiy{
+	width: 16px;
+}
+
+.sum{
+	  text-align: center;
+	
+}
+
+.total{
+	  text-align: center;
+	
+}
+
+input{
+	 text-align: center;
+	  font-size: 15px;
+}
+
+
+.content_total_section{
+		    background-color: rgb(227, 237, 247);
+		    margin-top: 432px;
+	}		
+		.total_wrap{
+			width: 80%;
+		    margin: auto;
+		    padding: -3px 0 67px 0;
+		    border-collapse: collapse;
+		    
+		}
+			.total_wrap td{
+				width : 50%;
+				border-collapse: collapse;
+			}
+			.finalTotalPrice_span{
+				color: #854A72;
+				font-size: 17px;
+				font-weight: bold;
+			}
+			.totalPoint_span{
+				font-size: 17px;
+				font-weight: bold;		
+			}
+			.boundary_div{
+				font-size: 0;
+			    border: 1px dotted #d1c7c7;
+			    margin: 5px 0 5px 0;		
+			}
+			
+		.input_size_20{
+			width:20px;
+			height:20px;
+		}
+		.all_check_input{
+			margin: 18px 0 18px 18px;
+		}
+		.all_chcek_span{
+			padding-left: 8px;
+	    	font-size: 20px;
+	    	font-weight: bold;		
+		}		
+		
+#pname1{
+	width: 268px;
+}	
+
+
+#h123{
+	text-align:center;
+    margin-top: 146px;
+    margin-bottom: 24px;
+}
+
+#order_btn{
+	
+	text-align: center;
+	display:block;
+	margin:auto;
+	margin-top: 45px;
+	padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.order_btn:hover{
+	background: #5f5f5f;
+	color: white;	
+}
+
+.check{border-bottom: 3px solid #5f5f5f;}
+
+.pname{border-bottom: 3px solid #5f5f5f;}
+
+.uniprice{border-bottom: 3px solid #5f5f5f;}
+
+.quantitiy{border-bottom: 3px solid #5f5f5f;}
+
+.total{border-bottom: 3px solid #5f5f5f;}
+
+.order{border-bottom: 3px solid #5f5f5f;}
+
+.hidden1{border-bottom: 3px solid #5f5f5f;}
+
+#itemSum{
+	color:#cc0202;
+	font-size:1.5rem;
+}
+
+#itemSum1{
+	font-size:1.2rem;
+}
+
+.delivery_price{
+    font-size:1.2rem;
+}
+
+#result{
+	font-size:1.2rem;	
+}
+
+#itemSum2{
+	font-size:1.2rem;
+}

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+
+}
+
+#h123{
+	text-align:center;
+    margin-top: 1px;
+    margin-bottom: 24px;
+}
+
+#wrap{
+	width:1550px;
+	margin: 0 auto;
+	overflow:hidden;
+	padding-top:130px;
+}
+
+article{
+	float: left;
+	margin-left:30px;
+	margin-bottom:0px;
+	
+}
+
+#search2{
+	width:450px;
+	height:450px;
+	display:block;
+	text-align:center;
+}
+
+h3{
+	text-align:center;
+}
+
+h5{
+	text-align:center;
+}

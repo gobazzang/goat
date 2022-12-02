@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{
+    
+    padding: 0;
+    font-size: 1rem;
+    text-decoration: none;
+    list-style: none;
+    color: #333333;
+}
+
+#index_03{
+    width: 2000px;
+    height: 1050px;
+    border: 1px solid dimgrey;
+    margin: 0 auto;
+}
+
+#header3{
+    height: 100px;
+    border-bottom: 1px solid dimgrey;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 100px;
+    font-size: 1.5rem;
+}
+
+#slide3{
+    height:800px;
+    width:1600px;
+    margin:auto;
+    padding-top: 15px;
+    
+}
+
+#slide3>ul>li{
+    position: absolute;
+    font-size: 0;
+}

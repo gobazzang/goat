@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.go.mapper.PurchaseMapper">
+
+	<select id="Purchase" resultType="org.go.model.ProductVO">
+		select * from product where pno in
+		<foreach collection="pno" item="item" index="index"
+			separator="," open="(" close=")">
+			#{item}
+		</foreach>
+		;
+	</select>
+	
+	<select id="detail" resultType="org.go.model.MemberVO">
+	    select *
+		from member
+		where
+		id=#{id};
+	</select>
+	
+	  <insert id = "Purchase1">
+    insert into Purchase(pname, uniprice, category, quantitiy, id ,total, name, phone ,addr) values(#{pname},#{uniprice},#{category},#{quantitiy},#{id},#{total},#{name},#{phone},#{addr})
+  </insert>
+
+
+</mapper>

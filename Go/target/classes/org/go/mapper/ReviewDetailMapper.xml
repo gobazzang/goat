@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="org.go.mapper.ReviewDetailMapper">
+
+<select resultType="org.go.model.ReviewVO" id="reviewdetail">
+	select *, (select count(*) from b_like where rno=review.rno) as cnthno from review where rno=#{rno}
+	
+</select>
+
+
+<update id="cntup"> update review set cnt = cnt + 1 where rno = #{rno} </update>
+
+<update id="modify"> update review set title=#{title}, content=#{content} where rno=#{rno} </update>
+
+<delete id="remove"> delete from review where rno=#{rno} </delete>
+
+</mapper>

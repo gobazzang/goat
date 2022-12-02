@@ -1,0 +1,158 @@
+@charset "UTF-8";
+header {
+	height: 75px;
+	width:1000px;
+	margin:auto;
+	padding: 1rem;
+	color: white;
+	background: teal;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#container {
+	width: 1000px;
+	height: 1050px;
+	margin: auto;
+	padding : 10px;
+	text-align:center;
+	position: relative;
+	top: 67px;
+}
+#signupcss{
+	background: #b2b2b2;
+	color : black;
+	padding: 20px;
+	height: 80px;
+	line-height: 80px;
+}
+#top{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 180px;
+	border-bottom: 3px solid gray;
+	padding-bottom: 20px;
+	width: 650px;
+}
+
+table{
+	border-collapse:collapse;
+	width:660px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+td{
+	padding: 10px;
+}
+td:nth-child(1){
+	color:red;
+	width:1px;
+	text-align:right;
+}
+td:nth-child(2){
+	width:80px;
+	font-size: 18px;
+	font-weight: bold;
+}
+td:nth-child(3){
+	width:300px;
+	text-align:left;
+}
+
+.box{
+	padding: 10px;
+	width: 380px;
+	font-size: 18px;
+	font-weight: bold;
+	color: gray;
+}
+
+#email.box{
+	width: 215px;
+	height: 0px;
+}
+
+.idbtn{
+float: left;
+	padding: 10px;
+	border: 1px solid gray;
+	background-color: gray;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.idbtn:hover{
+	background-color: #5f5f5f;
+	color: white;
+}
+
+.input {
+	width: 300px;
+	height: 25px;
+}
+
+.emailselect{
+	
+	font-size: 18px;
+}
+
+.button {
+	color:gray;
+	background-color: white;	
+	border: 1px solid gray;
+	padding: 15px 25px;
+	margin: 5px;
+	border-radius: 4px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.button:hover{
+	background-color: #5f5f5f;
+	color:white;
+}
+
+.cancle:hover{
+	background-color: white;
+}
+
+#footer{
+		margin-top: 700px;
+	}
+	
+#numchk1{
+	width: 128px;
+	height: 19px;
+}
+
+#numchk2{
+	height: 19px;
+}
+
+#addr1{
+	width: 121px;
+	height: 28px;
+}
+
+#addr2{
+	width: 226px;
+	height: 28px;
+}
+
+#addrDetail{
+	width: 395px;
+	height: 28px;
+}
+
+#addrExtra{
+	width: 300px;
+	height: 28px;
+}

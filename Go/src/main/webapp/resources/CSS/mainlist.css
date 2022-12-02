@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+
+}
+
+#h123{
+	text-align:center;
+    margin-top: 1px;
+    margin-bottom: 24px;
+}
+
+#h12{
+	text-align:center;
+    margin-top: 45px;
+    margin-bottom: 24px;
+    font-size: 30px;
+}
+
+#wrap{
+	width:1550px;
+	margin: 0 auto;
+	overflow:hidden;
+	margin-top: 50px;
+}
+
+article{
+	float: left;
+	margin-left:30px;
+	margin-bottom:0px;
+	
+}
+
+#search2{
+	width:320px;
+	height:288px;
+	display:block;
+	text-align:center;
+}
+
+h3{
+	text-align:center;
+}
+
+h5{
+	text-align:center;
+}
